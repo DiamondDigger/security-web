@@ -36,6 +36,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                         .username("user")
                         .password("password")
                         .roles("USER")
+                        .username("Baddy")
+                        .password("pas")
+                        .roles("USER")
+
                         .build();
 
         return new InMemoryUserDetailsManager(user);
